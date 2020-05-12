@@ -1,0 +1,25 @@
+<body>
+    <br><br>
+    <br><br>
+    <br>
+<h3>Details of Flights</h3>
+<br>
+<br>
+<div class="thirteen"><table class="table table-bordered table-hover">
+    <tr>
+        <th>Booking Id</th>
+        <th>User Id</th>
+        <th>BookingDate</th>
+        <th>Ticket Cost</th>
+        <th>Number Of Passengers</th>
+    </tr>
+    <tbody>
+        <tr *ngFor="let booking of Booking">
+            <td>{{Booking.}}</td>
+            <td>{{fly.carrierName}}</td>
+            <td>{{fly.flightModel}}</td>
+            <td>{{fly.seatCapacity}}</td>
+        </tr>
+    </tbody>
+</table></div>
+</body>
